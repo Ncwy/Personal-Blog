@@ -454,11 +454,16 @@ textarea:focus {
 
 @media screen and (max-width: 768px){
 
+    .picture_header {
+        height: 8em;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     h1 {
         position: absolute;
-        left: 30%;
-        top: 5%;
-        font-size: 3em;
+        left: 18%;
+        top: 3%;
+        font-size: 2.2em;
     }
 
     .slogan {
@@ -598,7 +603,7 @@ textarea:focus {
     
 }
 
-@media screen and (max-width: 378px){
+@media screen and (max-width: 375px){
     .navigation ul{
         text-align: center;
     }
