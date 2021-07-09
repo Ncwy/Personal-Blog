@@ -40,7 +40,7 @@ text-decoration: none;
     background-image: url("../images/brand.png");
     height: 13.3em;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     font-family: Helvetica Bold;
     color: #ce807c;
     box-shadow: 0px 4px 9px 0px #000000;
@@ -244,7 +244,7 @@ textarea:focus {
 
 .pictures {
     width: 80%;
-    height: 70em;
+    height: 55em;
     margin: 3em 2em;
     text-align: center;
 }
@@ -320,7 +320,7 @@ textarea:focus {
 
 .aboutus {
     background-color: #c3c4f2;
-    padding-top: 3em;
+    padding: 3em 0;
     height: 50em;
     margin: 0;
 }
@@ -449,4 +449,338 @@ textarea:focus {
 .footer a {
     text-decoration: none;
     font-size: 2em;
+}
+
+
+@media screen and (max-width: 768px){
+
+    h1 {
+        position: absolute;
+        left: 30%;
+        top: 5%;
+        font-size: 3em;
+    }
+
+    .slogan {
+        font-size: 1.3em;
+    }
+
+    .button-start {
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+
+    .pictures_collections {
+        border-radius: 10px;
+        font-size: 2em;
+    }
+
+    .enquiry-form h2 {
+        font-size: 1.5em;
+    }
+
+    .enquiry-form{
+        width: 35%;
+    }
+    
+    .enquiry-form form {
+        height: 55em;
+        margin: 3em 0 3em 2em;
+    }
+
+    .category {
+        font-size: 1.3em;
+    }
+
+    .textarea {
+        font-size: .8em;
+    }
+
+    .name {
+        font-size: .8em;
+    }
+    .email {
+        font-size: .8em;
+    }
+
+    .new-user {
+        font-size: 1em;
+    }
+    
+    .previous-user {
+        font-size: 1em;
+    }
+    
+    .submit {
+        font-size: 1.2em;
+    }
+
+    .mask p{
+        width: 5em;
+        font-size: .6em;
+    }
+    .mask h3 {
+        font-size: .8em;
+    }
+
+    .open   {
+        font-size: .8em;
+        width: 1.55em;
+    }
+    
+    .aboutus {
+        height: 35em;
+    }
+    .title-aboutus {
+        font-size: 3em;
+    }
+    
+    .blue-left {
+        width:30%;
+    }
+    
+    .blue-left h2 {
+        font-size: 2em;
+    }
+    
+    .profile {
+        font-size: 1em;
+        padding: 1em 0;
+    }
+    
+    .avatar {
+        width: 3em;
+        height:3em;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    
+    .description {
+        margin: 0 auto;
+        font-size: 1.2em;
+        width: 100%;
+        text-align: justify;
+        padding: 0 10px;
+    }
+    
+    .description p {
+        width: 10em;
+        text-align: left;
+        margin: 30px auto;
+    }
+    
+    .contacts {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 3em;
+    }
+    
+    .green-middle {
+        width:30%;
+        height: 10em;
+        text-align: center;
+    }
+    
+    .green-middle h2 {
+        font-size: 2em;
+    }
+    
+    .red-right {
+        width:30%;
+        height: 10em;
+        text-align: center;
+    }
+    
+    .red-right h2 {
+        font-size: 2em;
+    }
+    
+}
+
+@media screen and (max-width: 378px){
+    .navigation ul{
+        text-align: center;
+    }
+    .navigation li {
+        margin: 0 5px;
+    }
+    h1 {
+        position: absolute;
+        left: 20%;
+        top: 1%;
+        font-size: 1.2em;
+    }
+
+    .picture_header {
+        height: 4em;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .slogan {
+        font-size: .7em;
+        padding-top: 2em;
+        height: 15em;
+    }
+
+
+.slogan_top {
+    color: #F9B997;
+    position: static;
+}
+
+.slogan_center {
+    color: #E5CBBE;
+    position: static;
+}
+
+.slogan_bottom {
+    color: #CCDCDD;
+    position: static;
+}
+
+.content {
+    display:block;
+    background-color: #d9ecea;
+    padding-bottom: 2em;
+    margin-top: 0;
+    height:fit-content;
+}
+
+.pictures {
+    width: 80%;
+    height: fit-content;
+    margin: 3em 2em;
+    text-align: center;
+}
+
+  .button-start {
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+
+    .pictures_collections {
+        border-radius: 10px;
+        font-size: 2em;
+    }
+
+    .enquiry-form h2 {
+        font-size: 1.5em;
+    }
+
+    .enquiry-form{
+        width: 80%;
+        padding: 2em 0;
+    }
+    .enquiry-form form {
+        width: 100%;
+        height: 55em;
+        margin: 0 2em;
+    }
+
+    .thumbnails {
+        display: block;
+    }
+    .ocean {
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+    }
+    .mask p{
+        width: 10em;
+        font-size: 1.5em;
+    }
+    .mask h3 {
+        font-size: 2em;
+    }
+
+    .open   {
+        font-size: 1.5em;
+        width: 1.3em;
+    }
+    
+    .aboutus {
+        height: fit-content;
+        text-align: center;
+    }
+    .title-aboutus {
+        font-size: 2em;
+    }
+
+    .contacts {
+        display: block;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .blue-left {
+        width:100%;
+        margin: 0;
+        height: fit-content;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .blue-left h2 {
+        font-size: 1.5em;
+        width: 6em;
+    }
+    
+    .profile {
+        width: 65%;
+        font-size: 1em;
+        padding: 1em 3px;
+        height: fit-content;
+        text-align: center;
+    }
+    
+    .avatar {
+        width: 2em;
+        height:2em;
+    }
+    
+    .description {
+        width: fit-content;
+        margin: 0 auto;
+        font-size: 1em;
+        height: fit-content;
+    }
+    
+    .description p {
+        width: 80%;
+        text-align: justify;
+        height: fit-content;
+    }
+
+
+    .green-middle {
+        width:100%;
+        margin: 0;
+        height: fit-content;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .green-middle h2 {
+        font-size: 1.5em;
+        width: 6em;
+    }
+    .red-right {
+        width:100%;
+        margin: 0;
+        height: fit-content;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .red-right h2 {
+        font-size: 1.5em;
+        width: 6em;
+    }
+
+    .footer {
+        padding-bottom: 3em;
+    }
+
 }
