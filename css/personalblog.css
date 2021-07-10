@@ -112,7 +112,7 @@ h1 {
 }
 
 .enquiry-form form {
-    height: 70em;
+    height: 7em;
     background-color: #494545;
     border: 1px solid #000000;
     box-shadow: 2px 4px 9px 2px #000000;
@@ -276,6 +276,10 @@ textarea:focus {
     margin-top: 3em;
     position: relative;
     overflow: hidden;
+}
+
+.invi {
+    display: none;
 }
 
 .photo {
@@ -520,6 +524,23 @@ textarea:focus {
         font-size: 1.2em;
     }
 
+    .pictures {
+        height: fit-content;
+    }
+
+    .thumbnails {
+        height: fit-content;
+    }
+    .ocean {
+        width: 40%;
+        height: 0;
+        padding-bottom: 40%;
+    }
+
+    .invi {
+        visibility: hidden;
+    }
+    
     .mask p{
         width: 5em;
         font-size: .6em;
@@ -605,16 +626,52 @@ textarea:focus {
 
 @media screen and (max-width: 375px){
     .navigation ul{
-        text-align: center;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        width: 4em;
+        height: 3em;
+    }
+
+    .sandwich {
+        height: 2.3em;
+        border: 1px solid #6e6e6f ;
+        padding: 0.8em;
+    }
+
+    .sandwich-dash {
+        display: block;
+        border: 1.5px solid black;
+        background-color: black;
+        width: 2em;
+        margin: 7px auto;
     }
     .navigation li {
-        margin: 0 5px;
+        margin: 0;
+        display: none;
+        height: 1.5em;
+        line-height: 1.5em;
+        padding: 0 10px;
+        border: 1px solid #7b7b7b;
+        background-color: #91BBFC;
+        width: 10em;
+    }
+
+    .navigation a {
+        margin: 0;
+        font-size: .8em;
+
+    }
+
+    .picture_header, .slogan {
+        visibility: hidden;
     }
     h1 {
         position: absolute;
         left: 20%;
         top: 1%;
         font-size: 1.2em;
+        transform: translateZ(1px);
     }
 
     .picture_header {
