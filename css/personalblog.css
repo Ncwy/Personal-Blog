@@ -40,7 +40,7 @@ text-decoration: none;
     background-image: url("../images/brand.png");
     height: 13.3em;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     font-family: Helvetica Bold;
     color: #ce807c;
     box-shadow: 0px 4px 9px 0px #000000;
@@ -105,6 +105,7 @@ h1 {
     display: flex;
     background-color: #d9ecea;
     padding-bottom: 2em;
+    height: fit-content;
 }
 
 .enquiry-form{
@@ -112,7 +113,7 @@ h1 {
 }
 
 .enquiry-form form {
-    height: 7em;
+    height: 70em;
     background-color: #494545;
     border: 1px solid #000000;
     box-shadow: 2px 4px 9px 2px #000000;
@@ -537,7 +538,10 @@ textarea:focus {
         padding-bottom: 40%;
     }
 
-    .invi {
+    .hide {
+        width: 40%;
+        height: 0;
+        padding-bottom: 40%;
         visibility: hidden;
     }
     
@@ -655,8 +659,6 @@ textarea:focus {
         border: 1px solid #7b7b7b;
         background-color: #91BBFC;
         width: 10em;
-        position: relative;
-        transform: translateZ(999px);
     }
 
     .navigation a {
@@ -665,7 +667,12 @@ textarea:focus {
     }
 
     .picture_header {
-        visibility: hidden;
+        position: relative;
+        z-index: -1;
+    }
+
+    .slogan {
+        z-index: -1;
     }
 
     h1 {
