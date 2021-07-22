@@ -250,6 +250,7 @@ textarea:focus {
     height: 55em;
     margin: 3em 2em;
     text-align: center;
+    height: fit-content;
 }
 
 .pictures_collections {
@@ -267,6 +268,7 @@ textarea:focus {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    height: fit-content;
 }
 
 .ocean {
